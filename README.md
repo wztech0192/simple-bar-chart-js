@@ -5,7 +5,7 @@ Written in vanillaJS! 2kb lightweight library that present your data in a bar ch
 
 # Demo
 See demo.html or click 
-[here](wztechs.com/simple-bar-chart)
+[here](http://www.wztechs.com/simple-bar-chart/demo.html)
 
 
 # How to Use
