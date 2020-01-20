@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Simple Bar Chart</title>
     <link type="image/x-icon" href="./favicon.ico" rel="icon">
     <script src="./simple-bar-chart.js"></script>
 </head>
 <body style="background:rgba(0, 0, 0, 0.85)">
     <button id="btn">Randomize Data</button>
     <a href="https://github.com/weijie0192/simple-bar-chart-js" style="float:right;color:lightgray">Github</a>
-    <div id="mychart" style="color:lawngreen;height:60vh;margin:100px">
+    <div id="mychart" style="color:lawngreen;height:80vh;margin:50px">
     </div>
     <script>   
         //generate random data sets
@@ -19,7 +19,7 @@
             var data = {};
             var total = Math.round(Math.random()*40);
             for(var i=0; i<= total; i++){
-                data["Data "+i] =  Math.round(Math.random()*100) ;
+                data["Data_"+i] =  Math.round(Math.random()*100) ;
             }
             return data;
         }
