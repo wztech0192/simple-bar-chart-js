@@ -1,11 +1,11 @@
 
  /**
   * @author Wei Zheng
-  * @description 2kb size lightweight library that present your data in a line chart. No crazy styling, only speed and data!
+  * @description 2kb size lightweight library that present your data in a bar chart. No crazy styling, only speed and data!
   * @param {HTMLElement | String} target 
   * @param {KeyValueObject} data 
   */
-function SimpleLineChart(target, data){
+function SimpleBarChart(target, data){
     var _el = target instanceof Element ? target :  document.querySelector(target);
 
     if(!_el) return;
